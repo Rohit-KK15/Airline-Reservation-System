@@ -194,8 +194,8 @@ if(session.getAttribute("uname")==null){
 </select>
   <script type="text/javascript">
   		function yes(){
-  			String x=document.getElementByName("return").value;
-  			if(x=="yes"){
+  			// String x=document.getElementByName("return").value;
+  			if(document.getElementByName("return").value=="yes"){
   				document.getElementByName("ret_date").style.display="none";
   			}
   		}
